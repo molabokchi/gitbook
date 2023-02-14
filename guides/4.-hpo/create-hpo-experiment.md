@@ -1,3 +1,7 @@
+---
+description: Hyper-parameter Optimization 생성
+---
+
 # Create HPO Experiment
 
 {% hint style="warning" %}
@@ -12,10 +16,45 @@ deepdriver.login()
 <strong>def create_hpo(exp_name: str = "", team_name: str = "", remote: bool = False, hpo_config: Dict = None) -> (bool, int)
 </strong></code></pre>
 
-### <mark style="background-color:yellow;">example</mark>
+### <mark style="background-color:yellow;">example 1 - Dictionary 파라미터로 HPO 생성</mark>
 
-```
-// Some code
+```python
+hpo_configuration = {
+            "name": "my-awesome-sweep",
+            "metric": {"name": "accuracy", "goal": "maximize"},
+            "method": "grid",
+            "parameters": {
+                "learning_rate": {
+                    "distribution": "uniform",
+                    "range": [0.01, 0.001],
+                }
+            }
+        }
+deepdriver.create_hpo(exp_name="exp_name", hpo_config=hpo_configuration)
 ```
 
-## 2. HPO 생성시 artifact 지정하기
+### <mark style="background-color:yellow;">example 2 - 설정 파일로 HPO 생성</mark>
+
+```python
+"""
+hpo_config.json 파일 내용
+{
+  "name": "my-awesome-sweep",
+  "metric": {
+    "name": "accuracy",
+    "goal": "maximize"
+  },
+  "method": "grid",
+  "parameters": {
+    "learning_rate": {
+      "distribution": "uniform",
+      "range": [
+        0.01,
+        0.001
+      ]
+    }
+  }
+}
+"""
+deepdriver.create_hpo(exp_name="exp_name", hpo_config="./hpo_config.json")
+```

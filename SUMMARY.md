@@ -18,5 +18,6 @@
   * [5. CLI](guides/5.-cli/README.md)
     * [Setting](guides/5.-cli/setting.md)
     * [Login](guides/5.-cli/login.md)
+    * [Init](guides/5.-cli/init.md)
     * [Artifact](guides/5.-cli/artifact.md)
     * [HPO](guides/5.-cli/hpo.md)

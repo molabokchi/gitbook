@@ -4,10 +4,12 @@ description: CLI(Command Line Interface)를 통해 deepdriver의 일부 기능�
 
 # 5. CLI
 
-## <mark style="color:blue;"></mark>[<mark style="color:blue;">1. Setting</mark>](setting.md)<mark style="color:blue;"></mark>
+## [<mark style="color:blue;">1. Setting</mark>](setting.md)
 
-## <mark style="color:blue;"></mark>[<mark style="color:blue;">2. Login</mark>](login.md)<mark style="color:blue;"></mark>
+## [<mark style="color:blue;">2. Login</mark>](login.md)
 
-## <mark style="color:blue;"></mark>[<mark style="color:blue;">3. Artfiact</mark>](artifact.md)<mark style="color:blue;"></mark>
+## <mark style="color:blue;"></mark>[<mark style="color:blue;">3. Init</mark>](init.md)<mark style="color:blue;"></mark>
 
-## <mark style="color:blue;"></mark>[<mark style="color:blue;">4. HPO</mark>](hpo.md)<mark style="color:blue;"></mark>
+## [<mark style="color:blue;">4. Artfiact</mark>](artifact.md)
+
+## [<mark style="color:blue;">5. HPO</mark>](hpo.md)

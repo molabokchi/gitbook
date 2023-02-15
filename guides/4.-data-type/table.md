@@ -1,0 +1,6 @@
+---
+description: Table object
+---
+
+# Table
+

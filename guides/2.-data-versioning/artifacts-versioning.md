@@ -11,7 +11,7 @@ deepdriver login과 init 후에 사용할 수 있습니다.
 {% endhint %}
 
 {% hint style="info" %}
-동일  아티팩트에 데이터를 추가하여 업로드 하면 새로운 버전이 생성됩니다.
+동일 아티팩트에 데이터를 추가하여 업로드 하면 새로운 버전이 생성됩니다.
 {% endhint %}
 
 ## <mark style="color:blue;">예제 따라하기</mark>
@@ -34,7 +34,7 @@ deepdriver.get_artifact(name="artifact_name",type="artifact_type")
 arti = deepdriver.Artifacts(name="sample",type="dataset")
 ```
 
-아티팩트에 추가되어있는 파일을 확인합니다.&#x20;
+아티팩트에 추가되어있는 파일을 확인합니다.
 
 {% tabs %}
 {% tab title="python" %}
@@ -50,13 +50,13 @@ print([ent.path for ent  in arti.entry_list])
 {% endtab %}
 
 {% tab title="dashboard" %}
-### 1. dashboard로 이동
+#### 1. dashboard로 이동
 
-#### 1-1. url로 이동
+**1-1. url로 이동**
 
 http://{서버ip주소}:9111/{team이름}/experi/{실험환경이름}/exp/chart
 
-#### 1-2. deepdriver.init 수행시 출력된 run url 통해 이동
+**1-2. deepdriver.init 수행시 출력된 run url 통해 이동**
 
 {% code title="deepdriver.init 출력 결과 " %}
 ```
@@ -67,33 +67,25 @@ Run URL=http://quick-experience.bokchi.com:9111/experi/molamola.babo/arti_test_9
 ```
 {% endcode %}
 
+#### 2. 실험환경 페이지로 이동
 
-
-### 2. 실험환경 페이지로  이동
-
-상단의 실험환경이름 클릭( 플라스크 아이콘 )&#x20;
+상단의 실험환경이름 클릭( 플라스크 아이콘 )
 
 <figure><img src="../../.gitbook/assets/dashboard_experiment.png" alt=""><figcaption></figcaption></figure>
 
-
-
-### 3. 아티팩트 탭으로 이동
+#### 3. 아티팩트 탭으로 이동
 
 좌측에 아티팩트 타입과 이름 기준으로 아티팩트 목록이 보이고, 각 아티팩트에는 태그(버전)들이 보입니다.
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-
-
-### 4. 아티팩트 버전별 파일 목록 확인
+#### 4. 아티팩트 버전별 파일 목록 확인
 
 각 태그(버전)을 누르고 우측에 Files 탭을 누르면 해당 태그로 업로드된 파일 목록을 조회할 수 있습니다.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
-
-
 
 ## 2. 아티팩트 버전 생성
 
@@ -103,7 +95,7 @@ Run URL=http://quick-experience.bokchi.com:9111/experi/molamola.babo/arti_test_9
 arti.add("/content/cat_dog")
 ```
 
-아티팩트를 업로드 합니다.&#x20;
+아티팩트를 업로드 합니다.
 
 {% hint style="info" %}
 아티팩트를 업로드하면 아티팩트를 가져 왔을 때의 버전 + 1 로 자동 생성됩니다.
@@ -115,11 +107,9 @@ arti.add("/content/cat_dog")
 deepdriver.upload_artifact(arti)
 ```
 
-
-
 ## 3. 아티팩트 특정 버전 가져오기
 
-가져오려는 아티팩트의 버전을 get\_artifact의 tag를 통해 지정할 수 있습니다.&#x20;
+가져오려는 아티팩트의 버전을 get\_artifact의 tag를 통해 지정할 수 있습니다.
 
 ```
 deepdriver.get_artifact(name="{artifact_name}",type="{artifact_type}", tag= "{TAG}")
@@ -135,4 +125,3 @@ arti.download()
 ##
 
 ###
-

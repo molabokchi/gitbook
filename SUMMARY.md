@@ -13,6 +13,7 @@
     * [🔖 Artifacts versioning](guides/2.-data-versioning/artifacts-versioning.md)
   * [3. Report](guides/3.-report.md)
   * [4. Data Type](guides/4.-data-type/README.md)
+    * [DataFrame](guides/4.-data-type/dataframe.md)
     * [Image](guides/4.-data-type/image.md)
     * [Table](guides/4.-data-type/table.md)
     * [Chart](guides/4.-data-type/chart/README.md)

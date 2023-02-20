@@ -1,12 +1,12 @@
 # 4. Data Type
 
-## [1<mark style="color:blue;">. Dataframe</mark>](dataframe.md)<mark style="color:blue;"></mark>
+## <mark style="color:blue;"></mark>[<mark style="color:blue;">1</mark><mark style="color:blue;"><mark style="color:blue;">. Dataframe<mark style="color:blue;"></mark>](dataframe.md)<mark style="color:blue;"><mark style="color:blue;"><mark style="color:blue;"></mark>
 
-## [2<mark style="color:blue;">. Image</mark>](image.md)<mark style="color:blue;"></mark>
+## <mark style="color:blue;"></mark>[<mark style="color:blue;">2</mark><mark style="color:blue;"><mark style="color:blue;">. Image<mark style="color:blue;"></mark>](image.md)<mark style="color:blue;"><mark style="color:blue;"><mark style="color:blue;"></mark>
 
-## [3<mark style="color:blue;">. Table</mark>](table.md)<mark style="color:blue;"></mark>
+## <mark style="color:blue;"></mark>[<mark style="color:blue;">3</mark><mark style="color:blue;"><mark style="color:blue;">. Table<mark style="color:blue;"></mark>](table.md)<mark style="color:blue;"><mark style="color:blue;"><mark style="color:blue;"></mark>
 
-## [4<mark style="color:blue;">. Chart</mark>](chart/)<mark style="color:blue;"></mark>
+## <mark style="color:blue;"></mark>[<mark style="color:blue;">4</mark><mark style="color:blue;"><mark style="color:blue;">. Chart<mark style="color:blue;"></mark>](chart/)<mark style="color:blue;"><mark style="color:blue;"><mark style="color:blue;"></mark>
 
 * [<mark style="color:blue;">Line Chart</mark>](chart/line-chart.md)
 * [<mark style="color:blue;">Bar Chart</mark>](chart/bar-chart.md)

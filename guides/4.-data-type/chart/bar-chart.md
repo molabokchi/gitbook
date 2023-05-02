@@ -48,6 +48,10 @@ deepdriver.log({"bar_chart":bar_chart})
 
 ### <mark style="background-color:yellow;">example</mark>
 
+{% hint style="warning" %}
+Deepdriver Free 요금제에서는 사용할 수 없습니다.
+{% endhint %}
+
 <pre class="language-python"><code class="lang-python"><strong>df = deepdriver.DataFrame(columns=["x", "y"], data=[[0, 10], [1, 20], [2, 30]])
 </strong>bar_chart = deepdriver.bar(df, x="x", y="y", title="bar chart")
 arti.add(bar_chart, "bar_chart")

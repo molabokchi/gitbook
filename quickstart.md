@@ -97,9 +97,19 @@ deepdriver.login()
 ```
 deepdriver.login_with()
 ```
+
+#### 하기 코드 실행 후 생성되는 link를 눌러 google 로그인 후 code 복사하여 입력
+
+```
+deepdriver.login()
+```
+
+![](<.gitbook/assets/image (5).png>)
+
+
 {% endtab %}
 
-{% tab title="Deepdriver" %}
+{% tab title="Deepdriver(Command Line)" %}
 {% hint style="info" %}
 회원가입시 사용한 id와 password로 로그인
 {% endhint %}

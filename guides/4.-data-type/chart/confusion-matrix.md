@@ -64,6 +64,10 @@ deepdriver.log({"confusion_matrix":confusion_matrix})
 
 ### <mark style="background-color:yellow;">example</mark>
 
+{% hint style="warning" %}
+Deepdriver Free 요금제에서는 사용할 수 없습니다.
+{% endhint %}
+
 ```python
 y_true = [0, 1, 0, 1, 0, 2, 0, 2, 0, 1, 0, 1, 0, 1, 2, 2]  # 실제값
 preds = [0, 1, 0, 1, 1, 2, 1, 2, 0, 1, 0, 1, 0, 2, 0, 2]  # 예측값

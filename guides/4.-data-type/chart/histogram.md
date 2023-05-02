@@ -67,6 +67,10 @@ deepdriver.log({"histogram":histogram})
 
 ### <mark style="background-color:yellow;">example</mark>
 
+{% hint style="warning" %}
+Deepdriver Free 요금제에서는 사용할 수 없습니다.
+{% endhint %}
+
 ```python
 df = deepdriver.DataFrame(columns=["x", "y"], data=[[0, 10], [1, 20], [2, 30]])
 histogram = deepdriver.histogram(df, x="x", y="y", title="historgram chart")

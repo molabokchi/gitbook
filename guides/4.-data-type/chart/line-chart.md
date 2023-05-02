@@ -11,7 +11,7 @@
 line(data: DataFrame, x: str, y: str, title: str=None)
 ```
 
-### <mark style="background-color:yellow;">example  - 이미지 객체 생성</mark>
+### <mark style="background-color:yellow;">example - 이미지 객체 생성</mark>
 
 ```python
 df = deepdriver.DataFrame(columns=["step", "height"], data=[[0,10], [1,20], [2,30]])
@@ -50,6 +50,10 @@ deepdriver.log({"line_char":line_chart})
 ## 4. artifact 전송
 
 ### <mark style="background-color:yellow;">example</mark>
+
+{% hint style="warning" %}
+Deepdriver Free 요금제에서는 사용할 수 없습니다.
+{% endhint %}
 
 ```python
 df = deepdriver.DataFrame(columns=["step", "height"], data=[[0,10], [1,20], [2,30]])

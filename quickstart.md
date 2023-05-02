@@ -106,6 +106,14 @@ deepdriver.login()
 
 ![](<.gitbook/assets/image (5).png>)
 
+### 3. api key로 로그인 하는 경우&#x20;
+
+#### dashboard의 user setting에서 api key 를 복사하여 하기와 같이 로그인
+
+```
+deepdriver.login(key="{your api key}")
+```
+
 
 {% endtab %}
 
@@ -142,6 +150,14 @@ deepdriver.login_with()
 
 ```
 deepdriver.login()
+```
+
+### 3. api key로 로그인 하는 경우&#x20;
+
+#### dashboard의 user setting에서 api key 를 복사하여 하기와 같이 로그인
+
+```
+deepdriver.login(key="{your api key}")
 ```
 
 

@@ -14,6 +14,16 @@ description: 간단한 코드 수행으로 인공지능 실험 결과를 기록 
 
 deepdriver 대시보드 설치
 
+{% tabs %}
+{% tab title="Deepdriver" %}
+대시보드 설치 과정 없음.
+{% endtab %}
+
+{% tab title="Deepdriver CE" %}
+deepdriver 대시보드 설치
+{% endtab %}
+{% endtabs %}
+
 ### 1) Deepdriver python library 설치
 
 {% tabs %}
@@ -34,8 +44,14 @@ pip install deepdriver
 {% endtab %}
 {% endtabs %}
 
-### 2) 서버 설정 하기 - CE 버전만 해당
+### 2) 서버 설정 하기&#x20;
 
+{% tabs %}
+{% tab title="Deepdriver" %}
+별도의 설정 과정 없음
+{% endtab %}
+
+{% tab title="Deepdriver CE" %}
 deepdriver server를 설치한 주소로 하기와 같이 설정
 
 ```python
@@ -45,6 +61,8 @@ deepdriver.setting(http_host="{your_ip}:9011",  grpc_host="{your_ip}:19051")
 # local에 deepdriver server를 설치한 경우 하기와 같이 설정
 #deepdriver.setting(http_host="127.0.0.1:9011",  grpc_host="127.0.0.1:19051")
 ```
+{% endtab %}
+{% endtabs %}
 
 ## 2. 서버에 로그인 하기
 

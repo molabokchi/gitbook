@@ -16,7 +16,7 @@ def run_hpo(exp_name: str = "", team_name: str = "", remote: bool = False, hpo_c
             func: Callable = None, count: int = 10, artifact: Union[str, Dict] = None, job_count: int = 0) -> bool:
 ```
 
-### <mark style="background-color:yellow;">example 1 - 생성된 HPO를 실행</mark>&#x20;
+### <mark style="background-color:yellow;">example 1 - 생성된 HPO를 실행</mark>
 
 ```python
 def func():
@@ -27,7 +27,11 @@ def func():
 deepdriver.run_hpo(exp_name="exp_name", func=func, count=50)
 ```
 
-## 2.  Artifact를 이용해P  HPO 실행하기
+## 2. Artifact를 이용해 HPO 실행하기
+
+{% hint style="warning" %}
+Deepdriver Free 요금제에서는 사용할 수 없습니다.
+{% endhint %}
 
 {% hint style="info" %}
 HPO 실행시 데이터셋과 코드를 Artifact로 생성 후 실행 할 수 있습니다.

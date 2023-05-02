@@ -10,13 +10,11 @@ description: 간단한 코드 수행으로 인공지능 실험 결과를 기록 
 
 ## 1. Set up deepdriver
 
-### 0) Deepdriver CE 내려받기
+### 0) Deepdriver CE 내려받기 - CE 버전만 해당
 
 deepdriver 대시보드 설치
 
-
-
-### 1) Deepdriver python  library 설치
+### 1) Deepdriver python library 설치
 
 {% tabs %}
 {% tab title="command Line" %}
@@ -36,7 +34,7 @@ pip install deepdriver
 {% endtab %}
 {% endtabs %}
 
-### 2) 서버 설정 하기
+### 2) 서버 설정 하기 - CE 버전만 해당
 
 deepdriver server를 설치한 주소로 하기와 같이 설정
 
@@ -58,10 +56,10 @@ deepdriver.setting(http_host="{your_ip}:9011",  grpc_host="{your_ip}:19051")
 deepdriver.login( key="your_api_key")
 ```
 
-## 3. 실험환경  및  실행 만들기
+## 3. 실험환경 및 실행 만들기
 
 {% hint style="info" %}
-<mark style="color:blue;">실험환경은 한가지 주제에 대해 여러번의  실험의 로그 및 결과를    기록하고 비교하기 위한 단위 입니다.</mark>
+<mark style="color:blue;">실험환경은 한가지 주제에 대해 여러번의 실험의 로그 및 결과를 기록하고 비교하기 위한 단위 입니다.</mark>
 
 <mark style="color:blue;">실행은 하나의 실험을 의미 합니다.</mark>
 {% endhint %}

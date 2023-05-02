@@ -4,7 +4,7 @@
 * [🚀 Quickstart](quickstart.md)
 * [📚 Guides](guides/README.md)
   * [1. Experiment Tracking](guides/1.-experiment-tracking/README.md)
-    * [🏃♀ 🏃♀ 🏃♀ deepdriver.init으로 실험 시작](guides/1.-experiment-tracking/deepdriver.init.md)
+    * [🏃♀ deepdriver.init으로 실험 시작](guides/1.-experiment-tracking/deepdriver.init.md)
     * [✏ deepdriver.log로 데이터 기록하기](guides/1.-experiment-tracking/deepdriver.log.md)
     * [📊 dashboard](guides/1.-experiment-tracking/dashboard.md)
   * [2. Data versioning](guides/2.-data-versioning/README.md)

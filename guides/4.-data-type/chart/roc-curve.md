@@ -11,7 +11,7 @@
 roc_curve(y_true: list, probs: list, class_names: list = None, title: str = None)
 ```
 
-### <mark style="background-color:yellow;">example - Roc Curve 객체 생성</mark>&#x20;
+### <mark style="background-color:yellow;">example - Roc Curve 객체 생성</mark>
 
 ```python
 y_true = [1, 0, 0, 1, 1, 0, 1, 0, 1]
@@ -53,6 +53,10 @@ deepdriver.log({"roc_curve":curve})
 ```
 
 ## 4. artifact 전송
+
+{% hint style="warning" %}
+Deepdriver Free 요금제에서는 사용할 수 없습니다.
+{% endhint %}
 
 ```python
 

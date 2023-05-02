@@ -5,6 +5,8 @@ description: 아티팩트 단위로 버전 관리를 할 수 있습니다.
 # 🔖 Artifacts versioning
 
 {% hint style="warning" %}
+Deepdriver Free 요금제에서는 사용할 수 없습니다.&#x20;
+
 로그인과 실험환경/실행 생성 후에 사용할 수 있습니다.
 
 deepdriver login과 init 후에 사용할 수 있습니다.
@@ -50,7 +52,7 @@ print([ent.path for ent  in arti.entry_list])
 {% endtab %}
 
 {% tab title="dashboard" %}
-#### 1. dashboard로 이동
+**1. dashboard로 이동**
 
 **1-1. url로 이동**
 
@@ -67,19 +69,19 @@ Run URL=http://quick-experience.bokchi.com:9111/experi/molamola.babo/arti_test_9
 ```
 {% endcode %}
 
-#### 2. 실험환경 페이지로 이동
+**2. 실험환경 페이지로 이동**
 
 상단의 실험환경이름 클릭( 플라스크 아이콘 )
 
 <figure><img src="../../.gitbook/assets/dashboard_experiment.png" alt=""><figcaption></figcaption></figure>
 
-#### 3. 아티팩트 탭으로 이동
+**3. 아티팩트 탭으로 이동**
 
 좌측에 아티팩트 타입과 이름 기준으로 아티팩트 목록이 보이고, 각 아티팩트에는 태그(버전)들이 보입니다.
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-#### 4. 아티팩트 버전별 파일 목록 확인
+**4. 아티팩트 버전별 파일 목록 확인**
 
 각 태그(버전)을 누르고 우측에 Files 탭을 누르면 해당 태그로 업로드된 파일 목록을 조회할 수 있습니다.
 

@@ -114,6 +114,36 @@ deepdriver.login()
 회원가입시 사용한 id와 password로 로그인
 {% endhint %}
 
+### 1. 일반 email로 로그인 하는 경우
+
+#### 하기 코드에서 e 입력
+
+```
+deepdriver.login_with()
+```
+
+#### 하기 코드에서 id와 password 입력
+
+```
+deepdriver.login()
+```
+
+![](.gitbook/assets/image.png)
+
+### 2. google 계정으로 로그인 하는 경우
+
+#### 하기 코드에서 g 입력
+
+```
+deepdriver.login_with()
+```
+
+#### 하기 코드 수행 후 link 클릭하여 google 로그인 후 생성된 코드 복사하여 입력
+
+```
+deepdriver.login()
+```
+
 
 {% endtab %}
 
@@ -127,6 +157,8 @@ deepdriver.login( key="your_api_key")
 ```
 {% endtab %}
 {% endtabs %}
+
+
 
 ## 3. 실험환경 및 실행 만들기
 

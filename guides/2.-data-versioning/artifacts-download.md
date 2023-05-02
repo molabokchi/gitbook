@@ -1,6 +1,8 @@
 # ⬇ Artifacts download
 
 {% hint style="warning" %}
+Deepdriver Free 버전에서는 사용할 수 없습니다.
+
 로그인과 실험환경/실행 생성 후에 사용할 수 있습니다.
 
 deepdriver login과 init 후에 사용할 수 있습니다.

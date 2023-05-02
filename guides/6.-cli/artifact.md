@@ -2,18 +2,22 @@
 
 ## 1. CLI를 이용한 Artifact 다운로드
 
+{% hint style="warning" %}
+Deepdriver Free 요금제에서는 사용할 수 없습니다.
+{% endhint %}
+
 {% hint style="info" %}
 Command : <mark style="color:yellow;">artifact download</mark>
 
 Option:
 
-* \--type : Type  of artifact (model, dataset, code)
+* \--type : Type of artifact (model, dataset, code)
 * \--name : Name of artifact
 * \--tag : Version tag of artifact
 
 Argument:
 
-* path : download  path
+* path : download path
 {% endhint %}
 
 ```sh
@@ -27,7 +31,7 @@ Command : <mark style="color:yellow;">artifact upload</mark>
 
 Option:
 
-* \--type : Type  of artifact (model, dataset, code)
+* \--type : Type of artifact (model, dataset, code)
 * \--name : Name of artifact
 * \--tag : Version tag of artifact
 

@@ -10,7 +10,7 @@ description: 간단한 코드 수행으로 인공지능 실험 결과를 기록 
 
 ## 1. Set up deepdriver
 
-### 0) Deepdriver CE 내려받기 - CE 버전만 해당
+### 0) Deepdriver 내려받기
 
 deepdriver 대시보드 설치
 

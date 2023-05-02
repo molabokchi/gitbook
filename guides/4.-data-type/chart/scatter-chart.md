@@ -52,6 +52,10 @@ deepdriver.log({"scatter_chart":scatter_chart})
 
 ### <mark style="background-color:yellow;">example</mark>
 
+{% hint style="warning" %}
+Deepdriver Free 요금제에서는 사용할 수 없습니다.
+{% endhint %}
+
 ```python
 df = deepdriver.DataFrame(columns=["x", "y"], data=[[0, 10], [1, 20], [2, 30]])
 scatter_chart = deepdriver.scatter(df, "x", "y", title="scatter_chart")

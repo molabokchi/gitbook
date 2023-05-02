@@ -66,6 +66,48 @@ deepdriver.setting(http_host="{your_ip}:9011",  grpc_host="{your_ip}:19051")
 
 ## 2. 서버에 로그인 하기
 
+{% tabs %}
+{% tab title="Deepdriver(Jupyter notebook)" %}
+{% hint style="info" %}
+회원가입시 사용한 id와 password로 로그인
+
+일반 이메일로 가입한 경우 email 을 선택하고 google 계정으로 가입한 경우 gmail을 선택 한다&#x20;
+{% endhint %}
+
+### 1. 일반 email로 로그인 하는 경우&#x20;
+
+#### 하기 코드에서 email 선택
+
+```
+deepdriver.login_with()
+```
+
+#### 하기 코드에서 email과 password 기록
+
+```
+deepdriver.login()
+```
+
+![](<.gitbook/assets/image (4).png>)
+
+### 2. google 계정으로 로그인 하는 경우&#x20;
+
+#### 하기 코드에서  google 선택
+
+```
+deepdriver.login_with()
+```
+{% endtab %}
+
+{% tab title="Deepdriver" %}
+{% hint style="info" %}
+회원가입시 사용한 id와 password로 로그인
+{% endhint %}
+
+
+{% endtab %}
+
+{% tab title="Deepdriver CE" %}
 {% hint style="info" %}
 <mark style="color:blue;">deepdriver server 설치시 발급받은 사용자의 api key 사용</mark>
 {% endhint %}
@@ -73,6 +115,8 @@ deepdriver.setting(http_host="{your_ip}:9011",  grpc_host="{your_ip}:19051")
 ```python
 deepdriver.login( key="your_api_key")
 ```
+{% endtab %}
+{% endtabs %}
 
 ## 3. 실험환경 및 실행 만들기
 
